@@ -10,14 +10,11 @@
 {{form.csrf_token}}
 
   {# Add the file upload field as you learnt for Flask-WTF #}
-  <div>  
-  {{form.details.label}}
-  {{form.details}}
-</div>
+
 <div>  
-  {{form.image.label}}
   {{form.image}}
 </div>
+
   <button type="submit" name="submit" class="Upload">Upload</button>
 </form>
 {% endblock %}
